@@ -513,19 +513,4 @@ align-items: center;
     width: 100%;
 }
 }
-@media (min-width: 480px) {
 
-     .home-content {
-        width: 90%;
-        margin-top: 50px;
-        padding-left:20px ;
-        padding-top: 50px;
-
-    }
-
-    .container{
-        mix-width:10px;
-    }
-
-
-}
