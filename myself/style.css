@@ -111,8 +111,8 @@ font-size: 18px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
-    min-height: 700px;
+    height: 90vh;
+    min-height: 400px;
  
     background: radial-gradient(circle, rgba(222,222,222,1) 0%, rgba(242,192,214,1) 100%);
     
@@ -197,8 +197,12 @@ h3{
 /* ---------------- */
 section{
     margin-bottom: 30px;
-    padding: 20px;
+    padding-bottom: 20px;
     
+}
+.about, .contact{
+    position: relative;
+    top: -90px;
 }
 .row{
     display: flex;
@@ -216,7 +220,7 @@ section{
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding-block: 30px 40px;
+    padding-block: 10px 40px;
     padding-inline: 20px;
     width: 100%;
     background:rgb(255, 255, 255);
@@ -488,7 +492,7 @@ align-items: center;
 .himage{
     
     position: relative;
-    top: -78%;
+    top: -85%;
     right: 30%;
 
 }
