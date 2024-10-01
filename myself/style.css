@@ -513,3 +513,17 @@ align-items: center;
     width: 100%;
 }
 }
+@media (min-width: 480px) {
+
+    .home-content {
+        width: 90%;
+        padding: 30px 20px;
+
+    }
+
+    .container{
+        mix-width:10px;
+    }
+
+
+}
