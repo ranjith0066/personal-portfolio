@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome|Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="img/tr-logo.jpeg">
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav id="header">
+                <div class="logo">
+                    <h1>RANJITH <strong>TR</strong></h1>
+                </div>
+                <div class="menu" id="mymenu">
+                    <ul class="menu-list">
+                        <li class="list">
+                            <a href="#home" class="nav-link active-link">Home</a>
+                        </li>
+                        <li class="list">
+                            <a href="#about" class="nav-link ">About</a>
+                        </li>
+                        <li class="list">
+                            <a href="#contact" class="nav-link ">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="button nav-button">
+                    <a href="doc/Ranjith_T Profile.pdf" class="btn" download> Download CV <i
+                            class="bi bi-box-arrow-in-down"></i></a>
+                </div>
+                <div class="menu-btn">
+                    <i class="bi bi-list" onclick="menuFunction()"></i>
+                </div>
+                
+            </nav>
+         
+        </div>
+        <div class="dropdown-menu">
+            <li>
+                <a href="#home" >Home</a>
+            </li>
+            <li >
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contact" >Contact</a>
+            </li>
+            
+            <li><a href="doc/Ranjith_T Profile.pdf" class="btn" download> Download CV <i
+                class="bi bi-box-arrow-in-down"></i></a></li>
+        </div>
+    </header>
+
+
+
+    <section class="home" id="home">
+        <div class="container">
+            <div class=" home-content">
+                <div class="home-name">
+                    <h2>I'm <span class="typedText"></span></h2>
+
+                </div>
+                <div class="explain">
+                    <p>Beginner Frontend Web Developer with a passion for creating visually stunning
+                        and user-friendly websites.</p>
+                </div>
+                <div class="social-icon">
+                    <a href="https://github.com/ranjith0066" class="icon"> <i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ranjith-t-71905b32b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        class="icon"> <i class="bi bi-linkedin"></i></a>
+                    <a href="https://www.instagram.com/smarty__06___?igsh=c3JpMTF0ZjRuY2Fw" class="icon"><i
+                            class="bi bi-instagram"></i></a>
+                </div>
+            </div>
+            <div class="himage">
+                <div class="image">
+                    <img src="img/1 (1).jpeg" alt="">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="top-header">
+                <h1>About Me</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>My introduction</h3>
+                        <p> This is Ranjith , I am a Frontend Web Developer. I am well-versed in HTML, CSS and
+                            JavaScript , and other cutting edge
+                            frameworks and libraries,which allows me to implement interactive features.
+                            Additionally, I consider
+                            myself a responsible and orderly person . I looking
+                            forward or my first work experience.
+                        </p>
+                        <div class="about-btn">
+                            <a href="doc/Ranjith_T Profile.pdf" class="btn" download> Download CV <i
+                                    class="bi bi-box-arrow-in-down"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                            <span>Vue.js</span>
+
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Tools & Technologies</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>Github</span>
+                            <span>Git</span>
+                            <span>Visual Studio </span>
+                            <span>Tailwind Css</span>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <section class="contact" id="contact">
+        <div class="container">
+
+
+            <div class="top-header">
+                <h1>Get in touch</h1>
+            </div>
+            <div class="row">
+
+                <div class="col">
+                    <div class="form-control">
+                        <div class="form-inputs">
+                            <input type="text" class="input-field" id="name" placeholder="Name" required>
+                            <input type="text" class="input-field" id="email" placeholder="Email" required>
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Message" id="message" required></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button type="submit" onclick="sendMail()" class="btn"> Send <i
+                                    class="bi bi-send"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Find Me </h2>
+                        <p><i class="bi bi-envelope"></i> Email: tranjith3105@gmail.com</p>
+                        <p><i class="bi bi-telephone"></i> 7708572921</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="top-footer">
+            <p>Ranjith <strong>TR</strong></p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://github.com/ranjith0066" class="icon"> <i class="bi bi-github"></i></a>
+            <a href="https://www.linkedin.com/in/ranjith-t-71905b32b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                class="icon"> <i class="bi bi-linkedin"></i></a>
+            <a href="https://www.instagram.com/smarty__06___?igsh=c3JpMTF0ZjRuY2Fw" class="icon"><i
+                    class="bi bi-instagram"></i></a>
+        </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Ranjith </a><strong>TR</strong> - All
+                rights reserved</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "OjtY4PbCmCoyGhVeG",
+            });
+        })();
+    </script>
+</body>
+
+</html>
